@@ -16,7 +16,6 @@ readme = "README.md"
 license = "MPL-2.0"
 keywords = ["clippy", "lint", "plugin"]
 categories = ["development-tools", "development-tools::cargo-plugins"]
-build = "build.rs"
 edition = "2018"
 
 [badges]
@@ -58,10 +57,6 @@ derive-new = "0.5"
 # See the `src/tools/rustc-workspace-hack/README.md` file in `rust-lang/rust`
 # for more information.
 rustc-workspace-hack = "1.0.0"
-
-[build-dependencies]
-rustc_version = "0.2.2"
-ansi_term = "0.11"
 
 [features]
 debugging = []
